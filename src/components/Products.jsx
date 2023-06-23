@@ -11,7 +11,6 @@ let axiosConfig = {
 };
 
 const Products = ({ text, searchData, rating }) => {
-  console.log(rating);
   const [data, setData] = useState([]);
   const [page_num, setPage_Num] = useState(1);
 
@@ -45,7 +44,7 @@ const Products = ({ text, searchData, rating }) => {
 
   return (
     <>
-      <div className="row row-cols-2  mx-md-auto container">
+      <div className="row row-cols-2  mx-md-auto container d-flex justify-content-md-end">
         {text.length > 0
           ? searchData.map((ele) => <Product data={ele} key={ele.product_id} />)
           : data.map((ele) => <Product data={ele} key={ele.product_id} />)}
@@ -57,7 +56,7 @@ const Products = ({ text, searchData, rating }) => {
             <span
               className="page-link"
               onClick={() => setPage_Num(page_num - 1)}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", border: "none" }}
             >
               &laquo;
             </span>
@@ -82,7 +81,7 @@ const Products = ({ text, searchData, rating }) => {
             <span
               className="page-link"
               onClick={() => setPage_Num(page_num + 1)}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", border: "none" }}
             >
               &raquo;
             </span>

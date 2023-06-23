@@ -100,8 +100,13 @@ input.nosubmit {
   border: 1px solid black !important;
 }
 
-.checked {
+.bi-star-fill {
   color: orange;
+  margin-right: 6px;
+}
+
+.bi-star {
+  margin-right: 6px;
 }
 
 .card_product {
@@ -112,4 +117,16 @@ input.nosubmit {
   border-radius: 50% !important;
   margin-left: 15px;
   margin-right: 15px;
+  border: none !important;
+  color: black !important;
+}
+
+.active > span {
+  background-color: #dde1e4 !important;
+  color: black !important;
+  border: 1px solid rgb(78, 78, 230) !important;
+}
+
+.offer_price {
+  color: #13d726;
 }

@@ -119,11 +119,11 @@ function App() {
                 onClick={() => setRating(5)}
               />
               <label className="form-check-label">
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star"></span> & above
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star"></i> & above
               </label>
             </div>
 
@@ -135,11 +135,11 @@ function App() {
                 onClick={() => setRating(5)}
               />
               <label className="form-check-label">
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star "></span>
-                <span className="fa fa-star"></span> & above
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i> & above
               </label>
             </div>
 
@@ -151,11 +151,11 @@ function App() {
                 onClick={() => setRating(5)}
               />
               <label className="form-check-label">
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star"></span>
-                <span className="fa fa-star "></span>
-                <span className="fa fa-star"></span> & above
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i> & above
               </label>
             </div>
 
@@ -167,11 +167,11 @@ function App() {
                 onClick={() => setRating(5)}
               />
               <label className="form-check-label">
-                <span className="fa fa-star checked"></span>
-                <span className="fa fa-star "></span>
-                <span className="fa fa-star "></span>
-                <span className="fa fa-star "></span>
-                <span className="fa fa-star"></span> & above
+                <i className="bi bi-star-fill"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i>
+                <i className="bi bi-star"></i> & above
               </label>
             </div>
           </div>
