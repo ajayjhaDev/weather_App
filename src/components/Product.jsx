@@ -25,7 +25,7 @@ const Product = ({ data }) => {
         <strong>Price: {data.price} Rs</strong>
         <p className="card-text">Offer Price: {data.offer_price} Rs</p>
 
-        <div className="d-flex">
+        <div className="d-md-flex">
           <a className="btn btn-primary">View More Details</a>
           <button type="button" className="btn btn-outline-primary ms-1">
             Open an Account

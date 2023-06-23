@@ -45,15 +45,15 @@ const Products = ({ text, searchData, rating }) => {
 
   return (
     <>
-      <div className="row row-cols-2  mx-auto container">
+      <div className="row row-cols-2  mx-md-auto container">
         {text.length > 0
           ? searchData.map((ele) => <Product data={ele} key={ele.product_id} />)
           : data.map((ele) => <Product data={ele} key={ele.product_id} />)}
       </div>
 
-      <nav aria-label="..." className="ms-5 mt-2">
+      <nav aria-label="..." className="ms-md-5 mt-md-2">
         <ul className="pagination">
-          <li className="page-item me-3">
+          <li className="page-item me-md-3">
             <span
               className="page-link"
               onClick={() => setPage_Num(page_num - 1)}

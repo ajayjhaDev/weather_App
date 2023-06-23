@@ -40,7 +40,7 @@ function App() {
     <>
       <Navbar />
       <Header />
-      <section className="container  mt-3 d-flex justify-content-between align-items-center">
+      <section className="container  mt-3 d-flex justify-content-between align-items-center search-section">
         <div>
           <div className="container1">
             <form className="nosubmit">
@@ -76,7 +76,7 @@ function App() {
         </div>
       </section>
 
-      <main className="main_card mx-auto mt-3">
+      <main className="main_card mx-md-auto mt-md-3">
         <section className="checks_section">
           <div>
             <strong>Developed by</strong>
@@ -89,7 +89,7 @@ function App() {
               />
               <label className="form-check-label">All</label>
             </div>
-            <div className="form-check mt-3">
+            <div className="form-check mt-md-3">
               <input
                 className="form-check-input"
                 type="radio"
